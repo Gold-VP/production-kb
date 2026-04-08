@@ -7,7 +7,7 @@ GITHUB_REPO        = os.environ.get("GITHUB_REPO", "")
 GITHUB_BRANCH      = os.environ.get("GITHUB_BRANCH", "main")
 
 # --- Model ---
-MODEL    = "qwen/qwen-2.5-72b-instruct"
+MODEL    = "meta-llama/llama-3.3-70b-instruct:free"
 BASE_URL = "https://openrouter.ai/api/v1"
 
 # --- Limits ---
